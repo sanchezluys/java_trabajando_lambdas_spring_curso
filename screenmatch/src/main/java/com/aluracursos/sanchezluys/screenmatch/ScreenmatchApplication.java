@@ -18,6 +18,10 @@ public class ScreenmatchApplication implements CommandLineRunner {
 		//**********
 		var consumoAPI = new ConsumoAPI();
 		var json = consumoAPI.obtenerDatos("http://www.omdbapi.com/?t=game+of+thrones&apikey=5e85123f");
+		// ejemplo de la imagen aleatoria de cafe
+		var url_cafe= "https://coffee.alexflipnote.dev/random.json";
+		var json2 = consumoAPI.obtenerDatos(url_cafe);
 		System.out.println(json);
+		System.out.println(json2);
 	}
 }

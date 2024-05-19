@@ -1,14 +1,14 @@
 ### iniciando codigo
 
 
-| Pasos | Descripción                       |   |   |
-|-------|-----------------------------------|---|---|
-| 1     | Creando Hola Mundo con Spring     |   |   |
-| 2     | Consumiendo de una API con Spring |   |   |
-|       |                                   |   |   |
-|       |                                   |   |   |
-|       |                                   |   |   |
-|       |                                   |   |   |
-|       |                                   |   |   |
-|       |                                   |   |   |
-|       |                                   |   |   |
+| Pasos | Descripción                                   |   |   |
+|-------|-----------------------------------------------|---|---|
+| 1     | Creando Hola Mundo con Spring                 |   |   |
+| 2     | Consumiendo de una API con Spring             |   |   |
+| 3     | Usando una API de imagenes de cafe aleatorias |   |   |
+|       | https://coffee.alexflipnote.dev/random.json                                              |   |   |
+|       |                                               |   |   |
+|       |                                               |   |   |
+|       |                                               |   |   |
+|       |                                               |   |   |
+|       |                                               |   |   |
