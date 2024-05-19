@@ -1,6 +1,8 @@
 package com.aluracursos.sanchezluys.screenmatch;
 
+import com.aluracursos.sanchezluys.screenmatch.modelo.DatosSerie;
 import com.aluracursos.sanchezluys.screenmatch.service.ConsumoAPI;
+import com.aluracursos.sanchezluys.screenmatch.service.ConvierteDatos;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -23,5 +25,9 @@ public class ScreenmatchApplication implements CommandLineRunner {
 		var json2 = consumoAPI.obtenerDatos(url_cafe);
 		System.out.println(json);
 		System.out.println(json2);
+		//*** usando interface para manehar datos genericos
+		ConvierteDatos conversor = new ConvierteDatos();
+		var datos= conversor.obtenerDatos(json, DatosSerie.class);
+		System.out.println("Datos= "+ datos);
 	}
 }
