@@ -2,11 +2,15 @@ package com.aluracursos.sanchezluys.screenmatch;
 
 import com.aluracursos.sanchezluys.screenmatch.modelo.DatosEpisodio;
 import com.aluracursos.sanchezluys.screenmatch.modelo.DatosSerie;
+import com.aluracursos.sanchezluys.screenmatch.modelo.DatosTemporadas;
 import com.aluracursos.sanchezluys.screenmatch.service.ConsumoAPI;
 import com.aluracursos.sanchezluys.screenmatch.service.ConvierteDatos;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+import java.util.ArrayList;
+import java.util.List;
 
 @SpringBootApplication
 public class ScreenmatchApplication implements CommandLineRunner {
@@ -37,5 +41,21 @@ public class ScreenmatchApplication implements CommandLineRunner {
 		System.out.println("Json3: "+json3);
 		DatosEpisodio episodio = conversor.obtenerDatos(json3, DatosEpisodio.class);
 		System.out.println("Episodio: "+episodio);
+		//*** ahora con  la lista de temporadas
+		System.out.println("************************************");
+		System.out.println("Listas de temporadas ");
+		// se crea la lista
+		List<DatosTemporadas> temporadas = new ArrayList<>();
+		for (int i = 1; i < datos.totalTemporadas() ; i++) {
+
+			var json4 = consumoAPI.obtenerDatos("http://www.omdbapi.com/?t=game+of+thrones&season="+i+"&apikey=5e85123f");
+			var datosTemporadas = conversor.obtenerDatos(json4, DatosTemporadas.class);
+			//**
+			System.out.println("Cuando i = "+i);
+			System.out.println("-> json4: "+ json4);
+			temporadas.add(datosTemporadas);
+		}
+		//** se imprime la lista
+		temporadas.forEach(System.out::println);
 	}
 }
