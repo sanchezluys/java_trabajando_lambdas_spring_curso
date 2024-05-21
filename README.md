@@ -15,6 +15,9 @@
 |       | Se crea el modelo DatosSerie                                                                             |   |   |
 |       | Se crea la interface I_ConvierteDatos                                                                    |   |   |
 |       | Se configura JsonIgnoreProperty para que no lea todos los datos del json, solo los definidos en la clase |   |   |
-|       |                                                                                                          |   |   |
+| 6     | Ahora se usa la API con episodios y temporadas                                                           |   |   |
+|       | Se crea la clase record DatosEpisodio                                                                    |   |   |
+|       | Se utiliza la nueva variable json3                                                                       |   |   |
+|       | Se serializa con Title, Episode, imbRating y Released en la clase record                                 |   |   |
 |       |                                                                                                          |   |   |
 |       |                                                                                                          |   |   |

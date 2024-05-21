@@ -1,5 +1,6 @@
 package com.aluracursos.sanchezluys.screenmatch;
 
+import com.aluracursos.sanchezluys.screenmatch.modelo.DatosEpisodio;
 import com.aluracursos.sanchezluys.screenmatch.modelo.DatosSerie;
 import com.aluracursos.sanchezluys.screenmatch.service.ConsumoAPI;
 import com.aluracursos.sanchezluys.screenmatch.service.ConvierteDatos;
@@ -29,5 +30,12 @@ public class ScreenmatchApplication implements CommandLineRunner {
 		ConvierteDatos conversor = new ConvierteDatos();
 		var datos= conversor.obtenerDatos(json, DatosSerie.class);
 		System.out.println("Datos= "+ datos);
+		//*** ahora con episodio y temporadas
+		System.out.println("************************************");
+		System.out.println("Con la API en episodios y temporadas ");
+		var json3 = consumoAPI.obtenerDatos("http://www.omdbapi.com/?t=game+of+thrones&episode=1&season=1&apikey=5e85123f");
+		System.out.println("Json3: "+json3);
+		DatosEpisodio episodio = conversor.obtenerDatos(json3, DatosEpisodio.class);
+		System.out.println("Episodio: "+episodio);
 	}
 }
