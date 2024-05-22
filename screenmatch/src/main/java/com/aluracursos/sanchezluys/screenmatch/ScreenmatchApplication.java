@@ -3,6 +3,7 @@ package com.aluracursos.sanchezluys.screenmatch;
 import com.aluracursos.sanchezluys.screenmatch.modelo.DatosEpisodio;
 import com.aluracursos.sanchezluys.screenmatch.modelo.DatosSerie;
 import com.aluracursos.sanchezluys.screenmatch.modelo.DatosTemporadas;
+import com.aluracursos.sanchezluys.screenmatch.principal.Principal;
 import com.aluracursos.sanchezluys.screenmatch.service.ConsumoAPI;
 import com.aluracursos.sanchezluys.screenmatch.service.ConvierteDatos;
 import org.springframework.boot.CommandLineRunner;
@@ -57,5 +58,9 @@ public class ScreenmatchApplication implements CommandLineRunner {
 		}
 		//** se imprime la lista
 		temporadas.forEach(System.out::println);
+		System.out.println("***************************");
+		System.out.println("8. Creando el menu de interaccion con el usuario");
+		Principal principal = new Principal();
+		principal.muestraMenu();
 	}
 }
