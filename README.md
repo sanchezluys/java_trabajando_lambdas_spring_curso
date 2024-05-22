@@ -31,8 +31,10 @@
 |       | Las constantes se recomienda sean escritas en mayuscula ejm: URL_BASE                                    |   |   |
 |       | Ojo para declarar una constante en java se usa: "private final String constante=valor"                   |   |   |
 |       | "final" es una palabra reservada                                                                         |   |   |
-|       |                                                                                                          |   |   |
-|       |                                                                                                          |   |   |
-|       |                                                                                                          |   |   |
+| 9     | Clase: 02-09: Buscando datos completos de la serie                                                       |   |   |
+|       | Listas dentro de listas                                                                                  |   |   |
+|       | ** USANDO FUNCIONES LAMBDA**                                                                             |   |   |
+|       | temporadas.forEach(t -> t.episodios().forEach(e -> System.out.println(e.titulo())) );                    |   |   |
+|       | se simplifica los 2 bucles en una sola linea                                                             |   |   |
 |       |                                                                                                          |   |   |
 |       |                                                                                                          |   |   |
