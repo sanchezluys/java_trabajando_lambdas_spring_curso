@@ -41,5 +41,9 @@
 |       | Se crea clase EjemploStream                                                                                       |   |   |
 |       | Se usa la opcion de streams()                                                                                     |   |   |
 |       | Del listado se ordenan, se eligen solo 4 y al final muestra solo los que inicien con L todo impreso en mayusculas |   |   |
-|       |                                                                                                                   |   |   |
+| 11    | Clase 03-04: Identificando a los mejores Episodios                                                                |   |   |
+|       | Se crea la lista de episodios y temporadas, usando Streams()                                                      |   |   |
+|       | En datosEpisodios usando streams() se hace el filtro para eliminar los N/A                                        |   |   |
+|       | -- se ordena de menor a mayor                                                                                     |   |   |
+|       | -- se limita a 5 resultados                                                                                       |   |   |
 |       |                                                                                                                   |   |   |

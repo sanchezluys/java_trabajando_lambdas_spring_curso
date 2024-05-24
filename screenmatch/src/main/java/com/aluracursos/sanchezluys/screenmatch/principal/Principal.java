@@ -7,8 +7,10 @@ import com.aluracursos.sanchezluys.screenmatch.service.ConsumoAPI;
 import com.aluracursos.sanchezluys.screenmatch.service.ConvierteDatos;
 
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.List;
 import java.util.Scanner;
+import java.util.stream.Collectors;
 
 public class Principal {
     // crear el menu
@@ -61,5 +63,22 @@ public class Principal {
         System.out.println(" Usando Streams");
         EjemploStreams ejemploStreams = new EjemploStreams();
         ejemploStreams.muestraEjemplo();
+
+        // identificando los mejores episiodios
+        System.out.println("***********************");
+        System.out.println("Identificando los 5 mejores episodios");
+        System.out.println("Serie: "+nombreSerie);
+        System.out.println("********************************");
+        // convertir todas las informaciones a una lista del tipo DatosEpisodio
+        List<DatosEpisodio> datosEpisodios = temporadas.stream()
+                .flatMap(t-> t.episodios().stream())
+                .collect(Collectors.toList());  //.toList() es inmutable, con el usado si es mutable
+
+        // top 5 episodios
+        datosEpisodios.stream()
+                .filter(e-> !e.evaluacion().equalsIgnoreCase("N/A"))
+                .sorted(Comparator.comparing(DatosEpisodio::evaluacion).reversed())
+                .limit(5)
+                .forEach(System.out::println);
     }
 }
