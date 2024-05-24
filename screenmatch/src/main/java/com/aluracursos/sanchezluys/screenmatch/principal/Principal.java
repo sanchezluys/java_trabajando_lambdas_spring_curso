@@ -56,5 +56,10 @@ public class Principal {
         System.out.println("*******************************");
         System.out.println("USANDO FUNCIONES LAMBDA");
         temporadas.forEach(t -> t.episodios().forEach(e -> System.out.println(e.titulo())) );
+        //
+        System.out.println("**************************");
+        System.out.println(" Usando Streams");
+        EjemploStreams ejemploStreams = new EjemploStreams();
+        ejemploStreams.muestraEjemplo();
     }
 }
