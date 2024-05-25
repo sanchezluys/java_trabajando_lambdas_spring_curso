@@ -51,5 +51,8 @@
 |       | Con los datos N/A se genera un error NumberFormatException, se corrige con un try-catch                           |   |   |
 |       | Con las fechas N/A se generea un error DateTimeException, tambien se corrige con un try-cath                      |   |   |
 |       | La nueva lista usa Stream()                                                                                       |   |   |
-|       |                                                                                                                   |   |   |
+| 13    | Clase 03-09: Buscando un episodio a partir de una fecha                                                           |   |   |
+|       | Usando la API de fechas                                                                                           |   |   |
+|       | Se usa stream(), tambien un formateador de fechas con DateTimeFormatter                                           |   |   |
+|       | Ahora se muetsran los episodios a partir de las fechas que indique el usuario                                     |   |   |
 |       |                                                                                                                   |   |   |

@@ -6,7 +6,11 @@ import com.aluracursos.sanchezluys.screenmatch.modelo.DatosTemporadas;
 import com.aluracursos.sanchezluys.screenmatch.modelo.Episodio;
 import com.aluracursos.sanchezluys.screenmatch.service.ConsumoAPI;
 import com.aluracursos.sanchezluys.screenmatch.service.ConvierteDatos;
+import org.springframework.boot.autoconfigure.web.format.DateTimeFormatters;
+import org.springframework.format.annotation.DateTimeFormat;
 
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
@@ -91,6 +95,21 @@ public class Principal {
                 .collect(Collectors.toList());
         //
         episodios.forEach(System.out::println);
+        //
+        System.out.println("**************************");
+        System.out.println("Ahora busqueda de episodios a partir de un año");
+        System.out.println("Indicar el año ");
+        var fecha = teclado.nextInt();
+        teclado.nextLine();
+        //
+        DateTimeFormatter dtf = DateTimeFormatter.ofPattern("dd/MM/YYYY");
+        LocalDate fechaBusqueda = LocalDate.of(fecha, 1,1);
+        episodios.stream()
+                .filter(e -> e.getFechaLanzamiento() != null && e.getFechaLanzamiento().isAfter(fechaBusqueda))
+                .forEach(e -> {
+                    System.out.println("Temporada "+ e.getTemporada() + " Episodio "+ e.getTitulo()+
+                            " Fecha Lanzamiento: "+ e.getFechaLanzamiento().format(dtf) );
+                });
 
     }
 }
