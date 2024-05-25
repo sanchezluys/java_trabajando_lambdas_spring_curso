@@ -46,4 +46,10 @@
 |       | En datosEpisodios usando streams() se hace el filtro para eliminar los N/A                                        |   |   |
 |       | -- se ordena de menor a mayor                                                                                     |   |   |
 |       | -- se limita a 5 resultados                                                                                       |   |   |
+| 12    | Clase 03-08: Nueva clase para lidiar con los datos del episiodio                                                  |   |   |
+|       | Se crea la nueva clase Episodio, con sus setters y getters, asi como su toString()                                |   |   |
+|       | Con los datos N/A se genera un error NumberFormatException, se corrige con un try-catch                           |   |   |
+|       | Con las fechas N/A se generea un error DateTimeException, tambien se corrige con un try-cath                      |   |   |
+|       | La nueva lista usa Stream()                                                                                       |   |   |
+|       |                                                                                                                   |   |   |
 |       |                                                                                                                   |   |   |
