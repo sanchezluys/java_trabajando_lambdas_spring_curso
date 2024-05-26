@@ -61,5 +61,11 @@
 | 15    | Clase 04-05: Encontrando la primera coincidencia de búsqueda en una colección de datos                            |   |   |
 |       | se usa streams(), con findfirst()                                                                                 |   |   |
 |       | la validacion en el filtro se hace mayusculas a mayusculas                                                        |   |   |
-|       | uso del optional. dado que no siempre habrá un resultado                                                            |   |   |
+|       | uso del optional. dado que no siempre habrá un resultado                                                          |   |   |
+| 16    | Clase 04-08: Creando un mapa de datos por temporada                                                               |   |   |
+|       | Se usas la clase Map                                                                                              |   |   |
+|       | Tambien se usa Collectors, groupingBy y averagingDouble                                                           |   |   |
+|       | Se corrige el error de las evaluaciones coolocadas como 0.0 cuando son N/A                                        |   |   |
+|       | filtrando solo las > 0.0                                                                                          |   |   |
+|       |                                                                                                                   |   |   |
 |       |                                                                                                                   |   |   |

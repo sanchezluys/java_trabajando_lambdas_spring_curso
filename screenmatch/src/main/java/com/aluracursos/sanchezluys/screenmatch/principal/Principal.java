@@ -129,7 +129,14 @@ public class Principal {
         else{
             System.out.println("No se encontó ninguna coicidencia!");
         }
-
+        System.out.println("**************************");
+        System.out.println("Creando un mapa de datos por temporada");
+        System.out.println("****************************");
+        Map<Integer, Double> evaluacionPorTemporada = episodios.stream()
+                .filter(e-> e.getEvaluacion() > 0.0)
+                .collect(Collectors.groupingBy(Episodio::getTemporada,
+                        Collectors.averagingDouble(Episodio::getEvaluacion)));
+        System.out.println("Resultado: "+ evaluacionPorTemporada);
 
 
     }
