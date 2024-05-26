@@ -55,4 +55,9 @@
 |       | Usando la API de fechas                                                                                           |   |   |
 |       | Se usa stream(), tambien un formateador de fechas con DateTimeFormatter                                           |   |   |
 |       | Ahora se muetsran los episodios a partir de las fechas que indique el usuario                                     |   |   |
+| 14    | Clase 04-02: Exibiendo las etapas de un stream                                                                    |   |   |
+|       | Se usa peek()                                                                                                     |   |   |
+|       | Se muestra como java realiza los streams() de cada filtro, en la lista de los top 5                               |   |   |
+|       |                                                                                                                   |   |   |
+|       |                                                                                                                   |   |   |
 |       |                                                                                                                   |   |   |

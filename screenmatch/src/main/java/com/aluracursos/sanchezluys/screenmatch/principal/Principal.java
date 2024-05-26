@@ -82,8 +82,13 @@ public class Principal {
         // top 5 episodios
         datosEpisodios.stream()
                 .filter(e-> !e.evaluacion().equalsIgnoreCase("N/A"))
+                .peek(e-> System.out.println("Aplicando el filtro de N/A "+ e))
                 .sorted(Comparator.comparing(DatosEpisodio::evaluacion).reversed())
+                .peek(e-> System.out.println("Aplicando el filtro de ordenado Mayor a menor "+ e))
+                .map(e-> e.titulo().toUpperCase())
+                .peek(e-> System.out.println("Aplicando llevar a mayuscula el titulo "+ e))
                 .limit(5)
+                .peek(e-> System.out.println("Aplicando el limite de 5 registros "+ e))
                 .forEach(System.out::println);
 
         // clase 03-08
