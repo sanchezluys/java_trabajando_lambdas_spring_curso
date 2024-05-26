@@ -1,0 +1,70 @@
+
+•	java:S116"SRename this field "URL_BASE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“ı¾8ˆâã³û1J$db40cb6c-4e14-4b3f-b624-66b327d9098b
+™	java:S116"RRename this field "API_KEY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÊÿÇíÿÿÿÿÿ8‰âã³û1J$5155b48c-3b9c-43c2-8b81-9a6d77e1a1b3
+“	java:S116"QRename this field "SEASON" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(öÆÄå8‰âã³û1J$e91d1490-b3e7-474f-924f-0232807b223a
+d
+java:S1170"!Make this final field static too.(“ı¾8‹âã³û1J$3b35c662-1064-467e-919a-5cf081e68a3b
+i
+java:S1170"!Make this final field static too.(ÊÿÇíÿÿÿÿÿ8‹âã³û1J$b049909e-bcf4-4edc-a9c5-eccb8e38058f
+d
+java:S1170"!Make this final field static too.(öÆÄå8‹âã³û1J$e68acb0a-91c1-49b9-83ac-7fabd0e7a889
+m	java:S106"+Replace this use of System.out by a logger.(Ï·Óñ8»âã³û1J$273bc7d3-f45f-427f-b865-24abcd52daf3
+r	java:S106#"+Replace this use of System.out by a logger.(ÇÃáûÿÿÿÿ8µãã³û1J$c8e556ee-ed76-4289-8810-30dd90b6fdf2
+m	java:S106$"+Replace this use of System.out by a logger.(İØòÊ8ºãã³û1J$4c68b5e2-da08-496d-a79d-6b92a1492e26
+m	java:S106,"+Replace this use of System.out by a logger.(Ü™‚¥8Ëãã³û1J$53920360-5e42-4ae2-b709-249c015564b5
+l	java:S106-"+Replace this use of System.out by a logger.(şÛñI8Ëãã³û1J$47697111-c205-40b9-9c91-fb787a432290
+r	java:S1061"+Replace this use of System.out by a logger.(î´’ùÿÿÿÿ8Íãã³û1J$56e52eff-e9a1-4d7f-81e7-2269cafdb6d4
+r	java:S1064"+Replace this use of System.out by a logger.(•ÄõÒÿÿÿÿÿ8Òãã³û1J$39f79e19-2a67-4a77-8682-60da466ec73d
+m	java:S1065"+Replace this use of System.out by a logger.(‚±İ•8Óãã³û1J$37059a00-48c0-40c8-8c65-0b0cbb10698b
+m	java:S1069"+Replace this use of System.out by a logger.(ş¢³ñ8Úãã³û1J$7fdb16c1-7093-4a38-b903-bae09f41d182
+r	java:S106<"+Replace this use of System.out by a logger.(ö™µ–úÿÿÿÿ8Üãã³û1J$e5df2364-5380-4479-9494-aff1f38d8238
+l	java:S106="+Replace this use of System.out by a logger.(Èí—B8âãã³û1J$5085d636-7d39-4712-8f87-33b5de4ec532
+m	java:S106>"+Replace this use of System.out by a logger.(Ó°¶æ8åãã³û1J$86ee21cf-5411-447a-889e-5af875bc92de
+r	java:S106@"+Replace this use of System.out by a logger.(µ²àÓşÿÿÿÿ8éãã³û1J$e1f6ac07-0733-47d5-809f-1dd045bc8cfa
+m	java:S106A"+Replace this use of System.out by a logger.(ÜÀ¸8êãã³û1J$00c5ce5a-196b-4f8c-a0de-c0b6f6140df4
+r	java:S106F"+Replace this use of System.out by a logger.(Ş‘›ïøÿÿÿÿ8íãã³û1J$8955f905-30ad-4062-9e67-ee17152576a3
+m	java:S106G"+Replace this use of System.out by a logger.(í¡¹ß8øãã³û1J$a125a8c6-d975-4c78-90f6-620b830561dc
+r	java:S106H"+Replace this use of System.out by a logger.(É¡ü¦ûÿÿÿÿ8ùãã³û1J$016386cd-8fcc-4396-8578-92b9bca61780
+r	java:S106I"+Replace this use of System.out by a logger.(™¼åÃüÿÿÿÿ8úãã³û1J$3d199464-a3e1-4dae-859e-f140ebd3d3b6
+Â
+java:S6204M"zReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()' and ensure that the list is unmodified.(ãíÇãøÿÿÿÿ8üãã³û1J$e3ea6a7e-551c-4c6e-bd6a-31adc2a9bba1
+i
+java:S3864X"!Remove this use of "Stream.peek".(“˜¹Üøÿÿÿÿ8 äã³û1J$09256e23-1eec-457d-939f-3f81e415e61f
+c
+java:S3864V"!Remove this use of "Stream.peek".(í÷ù,8¤äã³û1J$e1151399-e9b3-4b5d-af86-9f412f7acd92
+d
+java:S3864T"!Remove this use of "Stream.peek".(Š‹öË8­äã³û1J$defc48bb-bddc-48bf-9112-db2a6e1fc7ac
+i
+java:S3864R"!Remove this use of "Stream.peek".(ÂøÅ–ùÿÿÿÿ8°äã³û1J$1295d352-c897-4999-8142-965096aa21bf
+r	java:S106R"+Replace this use of System.out by a logger.(ÂøÅ–ùÿÿÿÿ8½äã³û1J$93dc5b8b-6216-4fc2-8508-0c88baf26323
+m	java:S106T"+Replace this use of System.out by a logger.(Š‹öË8Ãäã³û1J$03384286-893c-42f2-bbc1-cb8355f443f2
+l	java:S106V"+Replace this use of System.out by a logger.(í÷ù,8åã³û1J$e63c8487-4407-425c-94ac-c7962e2ae4a7
+r	java:S106X"+Replace this use of System.out by a logger.(“˜¹Üøÿÿÿÿ8“åã³û1J$1a4a30c6-bd06-43ed-a61a-c3ac0b8acc29
+r	java:S106Y"+Replace this use of System.out by a logger.(¹¦…‡úÿÿÿÿ8•åã³û1J$e3969e08-0dfc-4c79-8baa-a8508fa58ba4
+m	java:S106\"+Replace this use of System.out by a logger.(í–İÈ8•åã³û1J$492b9c5c-c09e-4a96-b4c1-dab7016cd7f5
+r	java:S106]"+Replace this use of System.out by a logger.(Ğ•‰ƒúÿÿÿÿ8—åã³û1J$0a1c742c-71d8-4888-a54a-2d11cc0dd6fd
+½
+java:S6204a"zReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()' and ensure that the list is unmodified.(ª™¨¹8˜åã³û1J$629f3641-50a1-4234-83b7-95aa5b8dc3de
+r	java:S106c"+Replace this use of System.out by a logger.(Åì“¬ıÿÿÿÿ8›åã³û1J$ad8b7ac4-1d21-46b8-9723-1c980a2fec01
+r	java:S106e"+Replace this use of System.out by a logger.(µ²àÓşÿÿÿÿ8œåã³û1J$1af11e60-67ac-4c32-938a-b7b868159e33
+m	java:S106f"+Replace this use of System.out by a logger.(½¥Õ‘8åã³û1J$cf99b2aa-b2da-42c4-a2a6-fa650bedd670
+r	java:S106g"+Replace this use of System.out by a logger.(’¤õëûÿÿÿÿ8¢åã³û1J$4bf5fd5b-9f39-4633-bc41-1b7714b7e932
+
+java:S3986k"HMake sure that week Year "YYYY" is expected here instead of Year "yyyy".(·¨Ñüşÿÿÿÿ8»åã³û1J$12ea1fce-f22d-48fd-aaad-03ad6407bdb6
+o
+java:S1602o",Remove useless curly braces around statement(¿¤°8§æã³û1J$726bdc30-b87c-405f-bd1b-c41f73d65362
+l	java:S106p"+Replace this use of System.out by a logger.(è¹²-8©æã³û1J$b4afceb3-8a38-46d1-87ee-8318e1f3d3cf
+r	java:S106t"+Replace this use of System.out by a logger.(öó¾ïøÿÿÿÿ8­æã³û1J$f56f2aac-74e2-4462-95d3-8a6244274fce
+r	java:S106u"+Replace this use of System.out by a logger.(É¯×óşÿÿÿÿ8¯æã³û1J$c189a9db-545a-4d12-befa-2a1af0709db3
+r	java:S106v"+Replace this use of System.out by a logger.(®ÚİÓşÿÿÿÿ8°æã³û1J$f47bc358-fa12-4bab-b016-0c2e7c44d390
+l	java:S106w"+Replace this use of System.out by a logger.(ååÈn8±æã³û1J$777d6d59-03c7-4510-85e6-af858f7098cc
+m	java:S106~"+Replace this use of System.out by a logger.(´Ò·‚8·æã³û1J$b8913329-ef6a-476e-abf4-343dcee0ad01
+r	java:S106"+Replace this use of System.out by a logger.(Ï´—ıùÿÿÿÿ8¸æã³û1J$243fb313-5709-4958-9ab1-e805e15b27a0
+s	java:S106‚"+Replace this use of System.out by a logger.(ñÀŠ”üÿÿÿÿ8¹æã³û1J$f611c64f-6a2f-4a13-bd11-481f4749859c
+n	java:S106…"+Replace this use of System.out by a logger.(í–İÈ8ËØ±´û1J$0cc56b7c-fd80-436e-af2a-34491e5363ee
+s	java:S106†"+Replace this use of System.out by a logger.(Â›ç•úÿÿÿÿ8ÌØ±´û1J$20b9c619-ab77-4871-8f65-4ff391f7bac1
+©
+java:S1128	"aRemove this unused import 'org.springframework.boot.autoconfigure.web.format.DateTimeFormatters'.(˜À¥“şÿÿÿÿ8ææã³û1J$68aaeeab-92b4-4b7a-adbe-0025fefabdb9
+™
+java:S1128
+"QRemove this unused import 'org.springframework.format.annotation.DateTimeFormat'.(‡ˆôƒøÿÿÿÿ8ææã³û1J$b7a16342-70e0-4a02-a2c4-0f0abb7524a3
