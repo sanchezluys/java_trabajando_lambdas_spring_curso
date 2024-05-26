@@ -137,7 +137,17 @@ public class Principal {
                 .collect(Collectors.groupingBy(Episodio::getTemporada,
                         Collectors.averagingDouble(Episodio::getEvaluacion)));
         System.out.println("Resultado: "+ evaluacionPorTemporada);
-
-
+        //
+        System.out.println("***************");
+        System.out.println("Recolectando estadísticas");
+        System.out.println("*****************");
+        DoubleSummaryStatistics est = episodios.stream()
+                .filter(e-> e.getEvaluacion() > 0.0)
+                .collect(Collectors.summarizingDouble(Episodio::getEvaluacion));
+        System.out.println("Resultados: est: "+ est);
+        System.out.println("Personalizando la salida de est: ");
+        System.out.println("Media: " + est.getAverage());
+        System.out.println("Min: " + est.getMin());
+        System.out.println("Max: " + est.getMax());
     }
 }

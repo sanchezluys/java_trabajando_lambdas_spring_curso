@@ -67,5 +67,9 @@
 |       | Tambien se usa Collectors, groupingBy y averagingDouble                                                           |   |   |
 |       | Se corrige el error de las evaluaciones coolocadas como 0.0 cuando son N/A                                        |   |   |
 |       | filtrando solo las > 0.0                                                                                          |   |   |
+| 17    | Clase 04-10 Recolectando estadísticas                                                                             |   |   |
+|       | Usando DoubleSummaryStatistics                                                                                    |   |   |
+|       | Se muestra de manera separada el min, el max la media                                                             |   |   |
+|       |                                                                                                                   |   |   |
 |       |                                                                                                                   |   |   |
 |       |                                                                                                                   |   |   |
