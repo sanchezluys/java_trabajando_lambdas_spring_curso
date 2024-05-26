@@ -1,4 +1,4 @@
-### iniciando codigo
+### Inicializando la rama del RETO
 
 
 | Pasos | Descripción                                                                                                       |   |   |
