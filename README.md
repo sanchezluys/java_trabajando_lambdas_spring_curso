@@ -58,6 +58,8 @@
 | 14    | Clase 04-02: Exibiendo las etapas de un stream                                                                    |   |   |
 |       | Se usa peek()                                                                                                     |   |   |
 |       | Se muestra como java realiza los streams() de cada filtro, en la lista de los top 5                               |   |   |
-|       |                                                                                                                   |   |   |
-|       |                                                                                                                   |   |   |
+| 15    | Clase 04-05: Encontrando la primera coincidencia de búsqueda en una colección de datos                            |   |   |
+|       | se usa streams(), con findfirst()                                                                                 |   |   |
+|       | la validacion en el filtro se hace mayusculas a mayusculas                                                        |   |   |
+|       | uso del optional. dado que no siempre habrá un resultado                                                            |   |   |
 |       |                                                                                                                   |   |   |

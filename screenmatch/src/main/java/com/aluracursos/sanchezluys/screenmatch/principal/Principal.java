@@ -11,10 +11,7 @@ import org.springframework.format.annotation.DateTimeFormat;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
-import java.util.ArrayList;
-import java.util.Comparator;
-import java.util.List;
-import java.util.Scanner;
+import java.util.*;
 import java.util.stream.Collectors;
 
 public class Principal {
@@ -115,6 +112,25 @@ public class Principal {
                     System.out.println("Temporada "+ e.getTemporada() + " Episodio "+ e.getTitulo()+
                             " Fecha Lanzamiento: "+ e.getFechaLanzamiento().format(dtf) );
                 });
+        //***
+        System.out.println("*************************");
+        System.out.println("Ahora se bucsa un episodio con una palabra o pedazo de oracion:");
+        System.out.println("***************************");
+        System.out.println("Ingrese el titulo de la temporada o lo que recuerde para buscar: ");
+        var pedazoTitulo= teclado.nextLine();
+        Optional<Episodio> episodioBuscado = episodios.stream()
+                .filter(e -> e.getTitulo().toUpperCase().contains(pedazoTitulo.toUpperCase()))
+                .findFirst();
+
+        if(episodioBuscado.isPresent()){
+            System.out.println("Si se encontró una coicindencia ");
+            System.out.println("El titulo encontrado es: " + episodioBuscado.get());
+        }
+        else{
+            System.out.println("No se encontó ninguna coicidencia!");
+        }
+
+
 
     }
 }
