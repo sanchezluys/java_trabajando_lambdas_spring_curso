@@ -15,6 +15,23 @@ public class Menus {
    }
 
    public void Despedida(){
-       System.out.println("Despedida");
+       System.out.println("╔════════════════════════════════════════════════════════╗");
+       System.out.println("║                         DESPEDIDA                      ║");
+       System.out.println("╠════════════════════════════════════════════════════════╣");
+       System.out.println("║ Muchas gracias por usar esta Aplicación                ║");
+       System.out.println("║ Nos vemos pronto!!                                     ║");
+       System.out.println("╚════════════════════════════════════════════════════════╝");;
+   }
+
+   public void Menu(){
+       System.out.println("╔════════════════════════════════════════════════════════╗");
+       System.out.println("║                         MENÚ                           ║");
+       System.out.println("╠════════════════════════════════════════════════════════╣");
+       System.out.println("║ 1. Ver 5 titulos                                       ║");
+       System.out.println("║ 2. Ver los 10 libros mas descargados                   ║");
+       System.out.println("║ 3. Buscar un titulo                                    ║");
+       System.out.println("║ 4. Salir                                               ║");
+       System.out.println("╚════════════════════════════════════════════════════════╝");
+       System.out.print("Ingrese su opción: ");
    }
 }
