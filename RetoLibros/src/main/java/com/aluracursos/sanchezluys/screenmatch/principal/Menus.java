@@ -43,19 +43,20 @@ public class Menus {
     public void RevisarSeleccion() {
         Scanner teclado = new Scanner(System.in); // Initialize the Scanner
         var seleccion = teclado.nextLine();
+        Opciones opcion = new Opciones();
         // se valida que se cumpla la seleccion disponible
         switch (seleccion) {
             case "1":
                 //listado de libros 5 de ejemplo
-                this.Opcion1();
+                opcion.Opcion1();
                 break;
             case "2":
                 // listado 5 top descargados
-                this.Opcion2();
+                opcion.Opcion2();
                 break;
             case "3":
                 // Buscar un libro
-                this.Opcion3();
+                opcion.Opcion3();
                 break;
             case "4":
                 // Salir
@@ -69,19 +70,19 @@ public class Menus {
         }
     }
 
-    public void Opcion1() {
+    public void titulo1() {
         System.out.println("╔════════════════════════════════════════════════════════╗");
-        System.out.println("║                         OPCION 1                       ║");
+        System.out.println("║  1. LISTADO DE LIBROS (5 EJEMPLO)                      ║");
         System.out.println("╚════════════════════════════════════════════════════════╝");
     }
-    public void Opcion2() {
+    public void titulo2() {
         System.out.println("╔════════════════════════════════════════════════════════╗");
-        System.out.println("║                         OPCION 2                       ║");
+        System.out.println("║  2. TOP 10 LIBROS MAS DESCARGADOS                      ║");
         System.out.println("╚════════════════════════════════════════════════════════╝");
     }
-    public void Opcion3() {
+    public void titulo3() {
         System.out.println("╔════════════════════════════════════════════════════════╗");
-        System.out.println("║                         OPCION 3                       ║");
+        System.out.println("║  3. BUSCAR UN LIBRO POR TITULO                         ║");
         System.out.println("╚════════════════════════════════════════════════════════╝");
     }
 }
