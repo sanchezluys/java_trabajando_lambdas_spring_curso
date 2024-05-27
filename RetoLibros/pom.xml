@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.aluracursos.sanchezluys</groupId>
-	<artifactId>screenmatch</artifactId>
+	<artifactId>RetoLibros</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>screenmatch</name>
 	<description>mi primer proyecto con spring</description>
