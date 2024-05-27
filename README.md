@@ -14,7 +14,33 @@ Emoticones: ⚠️🔥📝✅❎📂⚙️🏷️📦📆🗓️🕑🏁➡️�
 |       |                                           | 4. Se crea la clase de los Menus, con opciones validadas | ✅       |
 |       |                                           | 5. Se configura libreria Jackson en archivo pom.xml      | ✅       |
 |       |                                           |                                                          |        |
-| 05-04 | Modelando las clases de la aplicación     |                                                          |        |
+| 05-04 | Modelando las clases de la aplicación     | Error ubicado, era http y no https en la URL             |        |
 |       |                                           |                                                          |        |
 |       |                                           |                                                          |        |
 |       |                                           |                                                          |        |
+
+
+
+## Pluggins para intellij 2024
+### Listado de Pluggins recomendados a instalar y mejorar la experiencia de programar con Java
+
+| Nombre           | Uso                                                                             | Recomendación 1-10 |
+|------------------|---------------------------------------------------------------------------------|--------------------|
+| Rainbow Brackets | Color a las llaves                                                              |                    |
+| Indent Rainbow                 | Indentacion con colores                                                         |                    |
+| Atom Material Icons                 | mejora la apariencia con iconos mas coloridos                                   |                    |
+| PacManProgressBar                 | Le da forma de pac man a las barras de progreso                                 |                    |
+| Pieces                 | guarda pedazos de tu codigo - se agrega un pluggin al navegador                 |                    |
+| SequenceDiagram                 | muestra los diagramas entidad                                                   |                    |
+| GitToolBox                 | Mejores Herramientas para Git                                                   |                    |
+| Tabnine AI Code Completation                 | IA que mejora y ayuda en tu codigo                                              |                    |
+| SonarLint                 | Realiza revisiones continuas al codigo evaluandolo y dando recomendaciones      |                    |
+| EnvFile                 | sirve para generar archivos .env que pueden cambiar segun el entorno de trabajo |                    |
+| Spring Boot Assistant                 | herramientas para manejar Spring                                                |                    |
+| GenerateAllSetter                 | Ayudar a generar los setter automaticamente de una clase                        |                    |
+| MavenHelper                 | Ayuda a revisar las dependencias de maven                                                                                |                    |
+| Grep Console                 | colores y descripcion en la consola de salida                                                                                |                    |
+| GsonFormatPlus                 | herramientas para manejar los json con mas facilidad                                                                                |                    |
+
+
+

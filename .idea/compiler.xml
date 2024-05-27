@@ -9,6 +9,9 @@
         <module name="RetoLibros" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="screenmatch" target="17" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
