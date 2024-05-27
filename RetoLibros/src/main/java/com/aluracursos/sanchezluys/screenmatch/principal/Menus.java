@@ -11,7 +11,7 @@ public class Menus {
         System.out.println("║ Profesor(es): Genesys Rondon                           ║");
         System.out.println("║ Backend con JAVA 17                                    ║");
         System.out.println("╠════════════════════════════════════════════════════════╣");
-        System.out.println("║ Usando API de: https://gutendex.com/?ref=public_apis   ║");
+        System.out.println("║ Usando API de: https://gutendex.com/books/             ║");
         System.out.println("╚════════════════════════════════════════════════════════╝");
     }
 
