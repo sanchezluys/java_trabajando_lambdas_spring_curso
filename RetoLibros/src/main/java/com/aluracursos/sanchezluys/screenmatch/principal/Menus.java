@@ -1,5 +1,4 @@
 package com.aluracursos.sanchezluys.screenmatch.principal;
-
 import java.util.Scanner;
 
 public class Menus {
