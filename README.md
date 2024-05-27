@@ -24,7 +24,7 @@ Emoticones: ⚠️🔥📝✅❎📂⚙️🏷️📦📆🗓️🕑🏁➡️�
 ## Pluggins para intellij 2024
 ### Listado de Pluggins recomendados a instalar y mejorar la experiencia de programar con Java
 
-| Nombre           | Uso                                                                             | Recomendación 1-10 |
+| Nombre           | Usos                                                                            | Recomendación 1-10 |
 |------------------|---------------------------------------------------------------------------------|--------------------|
 | Rainbow Brackets | Color a las llaves                                                              |                    |
 | Indent Rainbow                 | Indentacion con colores                                                         |                    |
@@ -38,9 +38,9 @@ Emoticones: ⚠️🔥📝✅❎📂⚙️🏷️📦📆🗓️🕑🏁➡️�
 | EnvFile                 | sirve para generar archivos .env que pueden cambiar segun el entorno de trabajo |                    |
 | Spring Boot Assistant                 | herramientas para manejar Spring                                                |                    |
 | GenerateAllSetter                 | Ayudar a generar los setter automaticamente de una clase                        |                    |
-| MavenHelper                 | Ayuda a revisar las dependencias de maven                                                                                |                    |
-| Grep Console                 | colores y descripcion en la consola de salida                                                                                |                    |
-| GsonFormatPlus                 | herramientas para manejar los json con mas facilidad                                                                                |                    |
+| MavenHelper                 | Ayuda a revisar las dependencias de maven                                       |                    |
+| Grep Console                 | colores y descripcion en la consola de salida                                   |                    |
+| GsonFormatPlus                 | herramientas para manejar los json con mas facilidad                            |                    |
 
 
 
