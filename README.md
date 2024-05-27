@@ -20,7 +20,11 @@ Emoticones: ⚠️🔥📝✅❎📂⚙️🏷️📦📆🗓️🕑🏁➡️�
 |       |                                              | - Se crean las clases tipo record Datos, DatosAutor, DatosLibros                 |        |
 |       |                                              | Se configuran los datos de cada clase usando la api y sus nombres                |        |
 |       |                                              |                                                                                  |        |
-|       |                                              |                                                                                  |        |
+| 05-05 | Top 10 libros más descargados                | Se usa stream()                                                                  |        |
+|       |                                              | Se corrige el menu, ya es ciclico                                                |        |
+|       |                                              | Se crea variable global para el bucle                                            |        |
+|       |                                              | Se muestran los 10 libros mas descargados, el nombre en mayusculas               |        |
+|       |                                              | Se crea la opcion 1 con 5 libros al azar.                                        |        |
 
 
 

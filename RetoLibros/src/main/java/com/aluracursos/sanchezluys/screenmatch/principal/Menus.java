@@ -1,4 +1,6 @@
 package com.aluracursos.sanchezluys.screenmatch.principal;
+import com.aluracursos.sanchezluys.screenmatch.RetoLibros;
+
 import java.util.Scanner;
 
 public class Menus {
@@ -23,7 +25,7 @@ public class Menus {
         System.out.println("║ Muchas gracias por usar esta Aplicación                ║");
         System.out.println("║ Nos vemos pronto!!                                     ║");
         System.out.println("╚════════════════════════════════════════════════════════╝");
-        ;
+        RetoLibros.revisar =false;
     }
 
     public void Menu() {
@@ -31,7 +33,7 @@ public class Menus {
         System.out.println("╔════════════════════════════════════════════════════════╗");
         System.out.println("║                         MENÚ                           ║");
         System.out.println("╠════════════════════════════════════════════════════════╣");
-        System.out.println("║ 1. Ver 5 titulos                                       ║");
+        System.out.println("║ 1. Ver 5 titulos al azar                               ║");
         System.out.println("║ 2. Ver los 10 libros mas descargados                   ║");
         System.out.println("║ 3. Buscar un titulo                                    ║");
         System.out.println("╠════════════════════════════════════════════════════════╣");
@@ -72,7 +74,7 @@ public class Menus {
 
     public void titulo1() {
         System.out.println("╔════════════════════════════════════════════════════════╗");
-        System.out.println("║  1. LISTADO DE LIBROS (5 EJEMPLO)                      ║");
+        System.out.println("║  1. LISTADO DE 5 LIBROS AL AZAR                        ║");
         System.out.println("╚════════════════════════════════════════════════════════╝");
     }
     public void titulo2() {

@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class RetoLibros implements CommandLineRunner {
-
+	public static Boolean revisar=true;
 	public static void main(String[] args) {
 		SpringApplication.run(RetoLibros.class, args);
 	}
@@ -15,7 +15,11 @@ public class RetoLibros implements CommandLineRunner {
 	public void run(String... args) throws Exception {
 		Menus menu = new Menus();
 		menu.Encabezado();
-		menu.Menu();
-		menu.RevisarSeleccion();
+
+		while (revisar)
+		{
+			menu.Menu();
+			menu.RevisarSeleccion();
+		}
 	}
 }
