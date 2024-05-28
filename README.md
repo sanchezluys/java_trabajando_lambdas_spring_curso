@@ -36,6 +36,9 @@ Emoticones: ⚠️🔥📝✅❎📂⚙️🏷️📦📆🗓️🕑🏁➡️�
 |       |                                                          | DoubleSummaryStatistics y stream()                                               |        |
 |       |                                                          | Se muestra cantidad de descargas, la min, la max, el promedio                    |        |
 |       |                                                          |                                                                                  |        |
+| 05-08 | RETO EXTRA                                               |                                                                                  |        |
+|       | Listar libros de una fecha a otra fecha                  |                                                                                  |        |
+|       |                                                          |                                                                                  |        |
 |       |                                                          |                                                                                  |        |
 
 

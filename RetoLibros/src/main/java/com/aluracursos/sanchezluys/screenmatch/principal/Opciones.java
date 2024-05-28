@@ -88,6 +88,14 @@ public class Opciones {
         System.out.println("Cantidad Maxima de descargas: "+est.getMax());
         System.out.println("Cantidad Minima de descargas: "+est.getMin());
         System.out.println("Cantidad de registros tomados en cuenta: "+est.getCount());
+    }
+    public void Opcion5()
+    {
+        menu.titulo5();
+        var json= consumoAPI.obtenerDatos(URL_BASE);
+        var datos = conversor.obtenerDatos(json, Datos.class);
+
+
 
     }
 }
