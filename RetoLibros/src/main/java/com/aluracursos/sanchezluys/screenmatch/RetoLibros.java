@@ -15,7 +15,6 @@ public class RetoLibros implements CommandLineRunner {
 	public void run(String... args) throws Exception {
 		Menus menu = new Menus();
 		menu.Encabezado();
-
 		while (revisar)
 		{
 			menu.Menu();
