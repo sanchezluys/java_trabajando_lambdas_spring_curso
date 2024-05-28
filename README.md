@@ -2,36 +2,41 @@
 
 Emoticones: ⚠️🔥📝✅❎📂⚙️🏷️📦📆🗓️🕑🏁➡️⬆️🎁🛒🛍️✏️🖍️✂️🔒🔓💎😀😃
 
-| Clase | Descripción                                             | Reto                                                                             | Estado |
-|-------|---------------------------------------------------------|----------------------------------------------------------------------------------|--------|
-| 05-02 | Api de ejemplos: https://publicapis.dev/                | 1. Colocar el listado de libros (5 de ejemplo)                                   |        |
-|       | Se usa la Api de https://gutendex.com/books/            | 2. Los 10 libros mas descargados                                                 |        |
-|       |                                                         | 3. Al dar un nombre de libro se busca y da estadisticas                          |        |
-|       |                                                         |                                                                                  |        |
-| 05-03 | Creación del proyecto                                   | 1. Se crea Clase ConsumoAPI                                                      | ✅       |
-|       |                                                         | 2. Se crea Clase ConvierteDatos                                                  | ✅       |
-|       |                                                         | 3. Se crea Interface I_convierteDatos                                            | ✅       |
-|       |                                                         | 4. Se crea la clase de los Menus, con opciones validadas                         | ✅       |
-|       |                                                         | 5. Se configura libreria Jackson en archivo pom.xml                              | ✅       |
-|       |                                                         |                                                                                  |        |
-| 05-04 | Modelando las clases de la aplicación                   | ⚠️ Error ubicado, era http y no https en la URL, en https se queda sin respuesta |        |
-|       | - Usando Redords para convertir los datos               | 🔥 El verdadero error era que faltaba el / al final de books/ en la url          |        |
-|       |                                                         | - Se crea el paquete model                                                       |        |
-|       |                                                         | - Se crean las clases tipo record Datos, DatosAutor, DatosLibros                 |        |
-|       |                                                         | Se configuran los datos de cada clase usando la api y sus nombres                |        |
-|       |                                                         |                                                                                  |        |
-| 05-05 | Top 10 libros más descargados                           | Se usa stream()                                                                  |        |
-|       |                                                         | Se corrige el menu, ya es ciclico                                                |        |
-|       |                                                         | Se crea variable global para el bucle                                            |        |
-|       |                                                         | Se muestran los 10 libros mas descargados, el nombre en mayusculas               |        |
-|       |                                                         | Se crea la opcion 1 con 5 libros al azar.                                        |        |
-|       |                                                         |                                                                                  |        |
-| 05-06 | Buscando libros por nombre                              | Se crea la logica en la opcion 3                                                 |        |
-|       | Se usa la api asi:                                      | varible definida: busqueda                                                       |        |
-|       | https://gutendex.com/books/?search=nombre               | Se usa Optional                                                                  |        |
+| Clase | Descripción                                              | Reto                                                                             | Estado |
+|-------|----------------------------------------------------------|----------------------------------------------------------------------------------|--------|
+| 05-02 | Api de ejemplos: https://publicapis.dev/                 | 1. Colocar el listado de libros (5 de ejemplo)                                   |        |
+|       | Se usa la Api de https://gutendex.com/books/             | 2. Los 10 libros mas descargados                                                 |        |
+|       |                                                          | 3. Al dar un nombre de libro se busca y da estadisticas                          |        |
+|       |                                                          |                                                                                  |        |
+| 05-03 | Creación del proyecto                                    | 1. Se crea Clase ConsumoAPI                                                      | ✅       |
+|       |                                                          | 2. Se crea Clase ConvierteDatos                                                  | ✅       |
+|       |                                                          | 3. Se crea Interface I_convierteDatos                                            | ✅       |
+|       |                                                          | 4. Se crea la clase de los Menus, con opciones validadas                         | ✅       |
+|       |                                                          | 5. Se configura libreria Jackson en archivo pom.xml                              | ✅       |
+|       |                                                          |                                                                                  |        |
+| 05-04 | Modelando las clases de la aplicación                    | ⚠️ Error ubicado, era http y no https en la URL, en https se queda sin respuesta |        |
+|       | - Usando Redords para convertir los datos                | 🔥 El verdadero error era que faltaba el / al final de books/ en la url          |        |
+|       |                                                          | - Se crea el paquete model                                                       |        |
+|       |                                                          | - Se crean las clases tipo record Datos, DatosAutor, DatosLibros                 |        |
+|       |                                                          | Se configuran los datos de cada clase usando la api y sus nombres                |        |
+|       |                                                          |                                                                                  |        |
+| 05-05 | Top 10 libros más descargados                            | Se usa stream()                                                                  |        |
+|       |                                                          | Se corrige el menu, ya es ciclico                                                |        |
+|       |                                                          | Se crea variable global para el bucle                                            |        |
+|       |                                                          | Se muestran los 10 libros mas descargados, el nombre en mayusculas               |        |
+|       |                                                          | Se crea la opcion 1 con 5 libros al azar.                                        |        |
+|       |                                                          |                                                                                  |        |
+| 05-06 | Buscando libros por nombre                               | Se crea la logica en la opcion 3                                                 |        |
+|       | Se usa la api asi:                                       | varible definida: busqueda                                                       |        |
+|       | https://gutendex.com/books/?search=titulo                | Se usa Optional                                                                  |        |
 |       | si el nombre lleva espacios entonces se debe agregar %20 |                                                                                  |        |
-|       |                                                         |                                                                                  |        |
-|       |                                                         |                                                                                  |        |
+|       |                                                          |                                                                                  |        |
+| 05-07 | Generando Estadísticas                                   | Se agrega la opcion 4, mostrar estadistica                                       |        |
+|       |                                                          | Como los datos son Double se usa esa estadistica                                 |        |
+|       |                                                          | DoubleSummaryStatistics y stream()                                               |        |
+|       |                                                          | Se muestra cantidad de descargas, la min, la max, el promedio                    |        |
+|       |                                                          |                                                                                  |        |
+|       |                                                          |                                                                                  |        |
 
 
 

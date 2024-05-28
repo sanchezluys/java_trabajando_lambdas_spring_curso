@@ -36,8 +36,9 @@ public class Menus {
         System.out.println("║ 1. Ver 5 titulos al azar                               ║");
         System.out.println("║ 2. Ver los 10 libros mas descargados                   ║");
         System.out.println("║ 3. Buscar un titulo                                    ║");
+        System.out.println("║ 4. Mostrar estadisticas                                ║");
         System.out.println("╠════════════════════════════════════════════════════════╣");
-        System.out.println("║ 4. Salir                                               ║");
+        System.out.println("║ 5. Salir                                               ║");
         System.out.println("╚════════════════════════════════════════════════════════╝");
         System.out.print("\uD83D\uDCDD Ingrese su opción: ");
     }
@@ -61,6 +62,10 @@ public class Menus {
                 opcion.Opcion3();
                 break;
             case "4":
+                // Buscar un libro
+                opcion.Opcion4();
+                break;
+            case "5":
                 // Salir
                 this.Despedida();
                 break;
@@ -85,6 +90,11 @@ public class Menus {
     public void titulo3() {
         System.out.println("╔════════════════════════════════════════════════════════╗");
         System.out.println("║  3. BUSCAR UN LIBRO POR TITULO                         ║");
+        System.out.println("╚════════════════════════════════════════════════════════╝");
+    }
+    public void titulo4() {
+        System.out.println("╔════════════════════════════════════════════════════════╗");
+        System.out.println("║  4. MUESTRA ESTADISTICA                                ║");
         System.out.println("╚════════════════════════════════════════════════════════╝");
     }
 }

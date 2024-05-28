@@ -5,13 +5,9 @@ import com.aluracursos.sanchezluys.screenmatch.model.DatosLibros;
 import com.aluracursos.sanchezluys.screenmatch.service.ConsumoAPI;
 import com.aluracursos.sanchezluys.screenmatch.service.ConvierteDatos;
 
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.List;
-import java.util.Scanner;
+import java.util.*;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.stream.Collectors;
-import java.util.Optional;
 
 public class Opciones {
     Menus menu = new Menus();
@@ -78,5 +74,20 @@ public class Opciones {
         {
             System.out.println("\uD83D\uDE41 No se encontro el libro con el titulo: "+busqueda);
         }
+    }
+
+    public void Opcion4()
+    {
+        menu.titulo4();
+        var json= consumoAPI.obtenerDatos(URL_BASE);
+        var datos = conversor.obtenerDatos(json, Datos.class);
+        DoubleSummaryStatistics est = datos.resultados().stream()
+                .filter(d -> d.numeroDescargas() > 0)
+                .collect(Collectors.summarizingDouble(DatosLibros::numeroDescargas));
+        System.out.println("Cantidad de descargas: "+est.getAverage());
+        System.out.println("Cantidad Maxima de descargas: "+est.getMax());
+        System.out.println("Cantidad Minima de descargas: "+est.getMin());
+        System.out.println("Cantidad de registros tomados en cuenta: "+est.getCount());
+
     }
 }
